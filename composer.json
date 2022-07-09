@@ -1,0 +1,20 @@
+{
+    "name": "shockedplot7560/monolog-custom-handler",
+    "description": "Custom handler for monolog using STDERR and files logging",
+    "type": "library",
+    "license": "GPL-3",
+    "autoload": {
+        "psr-4": {
+            "Shockedplot7560\\MonologCustomHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShockedPlot7560",
+            "email": "66992287+ShockedPlot7560@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.0"
+    }
+}
